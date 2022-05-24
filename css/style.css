@@ -49,6 +49,11 @@ body {
     height: 550px;
 }
 
+#hollow {
+    object-fit: fill;
+    object-position: bottom center;
+}
+
 .card_img_wrapper {
     position: relative;
     width: 100%;
@@ -61,7 +66,16 @@ body {
 }
 
 .card_img_main {
+    width: 100%;
     position: absolute;
+    object-fit: fill;
+
+}
+
+.card_img_hover {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .heart {
